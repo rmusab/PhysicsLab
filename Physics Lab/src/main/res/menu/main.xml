@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/itmAbout" android:title="@string/Menu_about_Text" android:showAsAction="always" android:icon="@android:drawable/ic_menu_info_details"></item>
+    <item android:id="@+id/itmPreferences" android:title="@string/Menu_pref_Text" android:showAsAction="always" android:icon="@android:drawable/ic_menu_preferences"></item>
+    <item android:id="@+id/itmQuit" android:title="@string/Menu_quit_Text" android:showAsAction="always" android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>
+
+</menu>

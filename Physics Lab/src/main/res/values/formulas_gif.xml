@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="formulas_gif">
+        <item >kinematics-en.gif</item>
+        <item >dynamics-en.gif</item>
+        <item >circle-en.gif</item>
+        <item >mkt-en.gif</item>
+        <item >termo_dynam-en.gif</item>
+        <item >electr-en.gif</item>
+        <item >deformation-en.gif</item>
+        <item >electrostatics-en.gif</item>
+        <item >magnet-en.gif</item>
+        <item >optics_farad-en.gif</item>
+        <item >nuclear-en.gif</item>
+        <item >altern_current-en.gif</item>
+        <item >circuit-en.gif</item>
+        <item >waves-en.gif</item>
+        <item >wave_optics-en.gif</item>
+        <item >transform-en.gif</item>
+        <item >relativity-en.gif</item>
+        <item >si-en.gif</item>
+    </string-array>
+</resources>

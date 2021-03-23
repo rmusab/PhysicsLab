@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main">
+        <item >Length</item>
+        <item >Mass</item>
+        <item >Time</item>
+        <item >Temperature</item>
+        <item >Area</item>
+        <item >Volume</item>
+        <item >Pressure</item>
+        <item >Velocity</item>
+        <item >Energy</item>
+        <item >Power</item>
+    </string-array>
+    <string-array name="length_names">
+        <item >Meter</item>
+        <item >League</item>
+        <item >Mile</item>
+        <item >Kilometer</item>
+        <item >Centimeter</item>
+        <item >Furlong</item>
+        <item >Chain</item>
+        <item >Rod</item>
+        <item >Yard</item>
+        <item >Foot</item>
+        <item >Link</item>
+        <item >Hand</item>
+        <item >Inch</item>
+        <item >Span</item>
+        <item >Arshin</item>
+        <item >Sajene</item>
+        <item >Verst</item>
+        <item >Light year</item>
+        <item >Parsec</item>
+    </string-array>
+    <string-array name="length_values">
+        <item >1</item>
+        <item >4828.032</item>
+        <item >1609.344</item>
+        <item >1000</item>
+        <item >0.01</item>
+        <item >201.16</item>
+        <item >20.1168</item>
+        <item >5.0292</item>
+        <item >0.9144</item>
+        <item >0.3048</item>
+        <item >0.201168</item>
+        <item >0.1016</item>
+        <item >0.0254</item>
+        <item >0.1778</item>
+        <item >0.7112</item>
+        <item >0.21336</item>
+        <item >1066.8</item>
+        <item >9460730472580800</item>
+        <item >30856776000000000</item>
+    </string-array>
+    <string-array name="mass_names">
+        <item >Kilogramme</item>
+        <item >Gram</item>
+        <item >Tonne</item>
+        <item >Centner</item>
+        <item >Carat</item>
+        <item >Pound</item>
+        <item >Ounce</item>
+    </string-array>
+    <string-array name="mass_values">
+        <item >1</item>
+        <item >0.001</item>
+        <item >1000</item>
+        <item >100</item>
+        <item >0.0002</item>
+        <item >0.45359237</item>
+        <item >0.028349523125</item>
+    </string-array>
+    <string-array name="time_names">
+        <item >Second</item>
+        <item >Minute</item>
+        <item >Hour</item>
+        <item >Day</item>
+        <item >Month (30 days)</item>
+        <item >Year</item>
+        <item >Age</item>
+        <item >Millennium</item>
+    </string-array>
+    <string-array name="time_values">
+        <item >1</item>
+        <item >60</item>
+        <item >3600</item>
+        <item >86400</item>
+        <item >2592000</item>
+        <item >31104000</item>
+        <item >3110400000</item>
+        <item >31104000000</item>
+    </string-array>
+    <string-array name="temp_names">
+        <item >Celsius degree</item>
+        <item >Fahrenheit degree</item>
+        <item >Kelvin degree</item>
+    </string-array>
+    <string-array name="temp_values">
+        <item >1</item>
+        <item >0.555555555555</item>
+        <item >1</item>
+    </string-array>
+    <string-array name="area_names">
+        <item >Square meter</item>
+        <item >Square kilometer</item>
+        <item >Hectare</item>
+        <item >100 square meters</item>
+        <item >Square centimeter</item>
+        <item >Square decimeter</item>
+        <item >Square millimeter</item>
+        <item >Square verst</item>
+        <item >Dessiatina</item>
+        <item >Square mile</item>
+        <item >Square foot</item>
+        <item >Square inch</item>
+    </string-array>
+    <string-array name="area_values">
+        <item >1</item>
+        <item >1000000</item>
+        <item >10000</item>
+        <item >100</item>
+        <item >0.0001</item>
+        <item >0.01</item>
+        <item >0.000001</item>
+        <item >1138060</item>
+        <item >10925.4</item>
+        <item >2589988.110336</item>
+        <item >0.09290304</item>
+        <item >0.00064516</item>
+    </string-array>
+    <string-array name="volume_names">
+        <item >Cubic meter</item>
+        <item >Liter</item>
+        <item >Square centimeter</item>
+        <item >Barrel</item>
+        <item >American gallon</item>
+        <item >British gallon</item>
+        <item >Cubic inch</item>
+    </string-array>
+    <string-array name="volume_values">
+        <item >1</item>
+        <item >0.001</item>
+        <item >0.000001</item>
+        <item >0.158983</item>
+        <item >0.003785411784</item>
+        <item >0.00454609</item>
+        <item >0.000016387064</item>
+    </string-array>
+    <string-array name="press_names">
+        <item >Pascal</item>
+        <item >Bar</item>
+        <item >Atmosphere</item>
+        <item >Millimeter of mercury</item>
+        <item >Meter of water</item>
+        <item >psi</item>
+    </string-array>
+    <string-array name="press_values">
+        <item >1</item>
+        <item >100000</item>
+        <item >101325</item>
+        <item >133.322</item>
+        <item >9806.65</item>
+        <item >6894.76</item>
+    </string-array>
+    <string-array name="velocity_names">
+        <item >Kilometer per hour</item>
+        <item >Kilometers per second</item>
+        <item >Meter per second</item>
+        <item >Miles per hour</item>
+        <item >Foot per second</item>
+        <item >Knot</item>
+    </string-array>
+    <string-array name="velocity_values">
+        <item >1</item>
+        <item >3600</item>
+        <item >3.6</item>
+        <item >1.609344</item>
+        <item >1.09728</item>
+        <item >1.852</item>
+    </string-array>
+    <string-array name="energy_names">
+        <item >Joule</item>
+        <item >Kilojoule</item>
+        <item >Megajoule</item>
+        <item >Gigajoule</item>
+        <item >Megaelectronvolt (MeV)</item>
+        <item >Electronvolt</item>
+        <item >Kilowatt-hour</item>
+        <item >Calorie</item>
+        <item >Kilocalorie</item>
+    </string-array>
+    <string-array name="energy_values">
+        <item >1</item>
+        <item >1000</item>
+        <item >1000000</item>
+        <item >1000000000</item>
+        <item >1.60217733e-13</item>
+        <item >1.60217733e-19</item>
+        <item >3600000</item>
+        <item >4.1868</item>
+        <item >4186.8</item>
+    </string-array>
+    <string-array name="power_names">
+        <item >Watt</item>
+        <item >Kilowatt</item>
+        <item >Megawatt</item>
+        <item >Gigawatt</item>
+        <item >Horsepower</item>
+    </string-array>
+    <string-array name="power_values">
+        <item >1</item>
+        <item >1000</item>
+        <item >1000000</item>
+        <item >1000000000</item>
+        <item >745.6998715823</item>
+    </string-array>
+    
+</resources>

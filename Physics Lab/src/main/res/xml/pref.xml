@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="method"
+        android:title="@string/chMethod_title"
+        android:summary="@string/chMethod_summary"/>
+
+    <ListPreference
+        android:key="language"
+        android:title="@string/chLang_title"
+        android:summary="@string/chLang_summary"
+        android:entries="@array/lang_list"
+        android:entryValues="@array/lang_values"/>
+
+</PreferenceScreen>

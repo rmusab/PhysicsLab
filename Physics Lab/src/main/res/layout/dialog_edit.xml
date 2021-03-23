@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+ 	android:layout_height="match_parent"
+ 	android:orientation="vertical">
+    
+    <EditText
+        android:id="@+id/etNameChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/tvNameAdd_Text"/>
+
+    <EditText
+        android:id="@+id/etTxtChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/tvTxtAdd_Text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnPos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_pos_text"
+            android:drawableLeft="@drawable/ok"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btnNeg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_neg_text"
+            android:drawableLeft="@drawable/cancel"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Physics Lab project</title>
+<!-- Copyright (c) Mussabayev Ravil -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({
+showMathMenu: false,
+jax: ['input/MathML','output/HTML-CSS'],
+extensions: ['mml2jax.js'],
+TeX: { extensions: ['noErrors.js','noUndefined.js'] },
+'SVG' : { blacker: 30,
+styles: { path: { 'shape-rendering': 'crispEdges' } } }
+});
+</script>
+
+<script type="text/javascript" src="MathJax.js"></script>
+
+</head>
+<body>
+<p>
+
+<math display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+ <mtable columnalign='left'>
+  <mtr>
+   <mtd>
+    <mi>O</mi><mi>p</mi><mi>t</mi><mi>i</mi><mi>c</mi><mi>s</mi><mo>:</mo>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>&#x0413;</mi><mo>=</mo><mfrac>
+     <mrow>
+      <mi>H</mi><mo stretchy='false'>(</mo><mi>i</mi><mi>m</mi><mi>a</mi><mi>g</mi><mi>e</mi><mo stretchy='false'>)</mo></mrow>
+     <mrow>
+      <mi>h</mi><mo stretchy='false'>(</mo><mi>o</mi><mi>b</mi><mi>j</mi><mi>e</mi><mi>c</mi><mi>t</mi><mo stretchy='false'>)</mo></mrow>
+    </mfrac>
+    <mo>=</mo><mfrac>
+     <mi>f</mi>
+     <mi>d</mi>
+    </mfrac>
+    
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>f</mi><mo>&#x2212;</mo><mi>f</mi><mi>r</mi><mi>o</mi><mi>m</mi><mtext>&#x00A0;</mtext><mi>t</mi><mi>h</mi><mi>e</mi><mtext>&#x00A0;</mtext><mi>c</mi><mi>e</mi><mi>n</mi><mi>t</mi><mi>e</mi><mi>r</mi><mtext>&#x2009;</mtext><mi>t</mi><mi>o</mi><mtext>&#x00A0;</mtext><mi>t</mi><mi>h</mi><mi>e</mi><mtext>&#x00A0;</mtext><mi>i</mi><mi>m</mi><mi>a</mi><mi>g</mi><mi>e</mi>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>d</mi><mo>&#x2212;</mo><mi>f</mi><mi>r</mi><mi>o</mi><mi>m</mi><mtext>&#x00A0;</mtext><mi>t</mi><mi>h</mi><mi>e</mi><mtext>&#x00A0;</mtext><mi>o</mi><mi>b</mi><mi>j</mi><mi>e</mi><mi>c</mi><mi>t</mi><mtext>&#x2009;</mtext><mi>t</mi><mi>o</mi><mtext>&#x00A0;</mtext><mi>t</mi><mi>h</mi><mi>e</mi><mtext>&#x00A0;</mtext><mi>c</mi><mi>e</mi><mi>n</mi><mi>t</mi><mi>e</mi><mi>r</mi>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mo>&#x00B1;</mo><mfrac>
+     <mn>1</mn>
+     <mrow>
+      <mrow><mo>|</mo> <mi>F</mi> <mo>|</mo></mrow></mrow>
+    </mfrac>
+    <mo>=</mo><mfrac>
+     <mn>1</mn>
+     <mi>d</mi>
+    </mfrac>
+    <mo>&#x00B1;</mo><mfrac>
+     <mn>1</mn>
+     <mrow>
+      <mrow><mo>|</mo> <mi>f</mi> <mo>|</mo></mrow></mrow>
+    </mfrac>
+    
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>&#x0413;</mi><mo>=</mo><mrow><mo>|</mo> <mrow>
+     <mfrac>
+      <mrow>
+       <mi>f</mi><mo>&#x2212;</mo><mi>F</mi></mrow>
+      <mi>F</mi>
+     </mfrac>
+     </mrow> <mo>|</mo></mrow><mo>=</mo><mrow><mo>|</mo> <mrow>
+     <mfrac>
+      <mi>F</mi>
+      <mrow>
+       <mi>d</mi><mo>&#x2212;</mo><mi>F</mi></mrow>
+     </mfrac>
+     </mrow> <mo>|</mo></mrow>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>D</mi><mo>=</mo><mfrac>
+     <mn>1</mn>
+     <mi>F</mi>
+    </mfrac>
+    <mo>;</mo><mtext>&#x2009;</mtext><mi>D</mi><mo>=</mo><mo stretchy='false'>(</mo><msub>
+     <mi>n</mi>
+     <mrow>
+      <mn>1,2</mn></mrow>
+    </msub>
+    <mo>&#x2212;</mo><mn>1</mn><mo stretchy='false'>)</mo><mo stretchy='false'>(</mo><mfrac>
+     <mn>1</mn>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>1</mn>
+      </msub>
+      </mrow>
+    </mfrac>
+    <mo>+</mo><mfrac>
+     <mn>1</mn>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>2</mn>
+      </msub>
+      </mrow>
+    </mfrac>
+    <mo stretchy='false'>)</mo>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>n</mi><mo>=</mo><mfrac>
+     <mrow>
+      <msub>
+       <mi>H</mi>
+       <mrow>
+        <mi>t</mi><mi>r</mi><mi>u</mi><mi>e</mi><mtext>&#x00A0;</mtext><mi>d</mi><mi>e</mi><mi>p</mi><mi>t</mi><mi>h</mi></mrow>
+      </msub>
+      </mrow>
+     <mrow>
+      <msub>
+       <mi>H</mi>
+       <mrow>
+        <mi>a</mi><mi>p</mi><mi>p</mi><mi>a</mi><mi>r</mi><mi>e</mi><mi>n</mi><mi>t</mi><mtext>&#x00A0;</mtext><mi>d</mi><mi>e</mi><mi>p</mi><mi>t</mi><mi>h</mi></mrow>
+      </msub>
+      </mrow>
+    </mfrac>
+    
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <msub>
+     <mi>H</mi>
+     <mrow>
+      <mi>t</mi><mi>r</mi><mi>u</mi><mi>e</mi><mtext>&#x00A0;</mtext><mi>d</mi><mi>e</mi><mi>p</mi><mi>t</mi><mi>h</mi></mrow>
+    </msub>
+    <mo>=</mo><mi>h</mi><mfrac>
+     <mrow>
+      <mi>t</mi><mi>g</mi><mi>&#x03B1;</mi></mrow>
+     <mrow>
+      <mi>t</mi><mi>g</mi><mi>&#x03B2;</mi></mrow>
+    </mfrac>
+    
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mrow></mrow>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>P</mi><mi>l</mi><mi>a</mi><mi>n</mi><mi>e</mi><mtext>&#x00A0;</mtext><mi>m</mi><mi>i</mi><mi>r</mi><mi>r</mi><mi>o</mi><mi>r</mi><mo>:</mo>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>d</mi><mo>=</mo><mo>&#x2212;</mo><mi>f</mi><mo>;</mo><mtext>&#x2009;</mtext><msub>
+     <mi>R</mi>
+     <mrow>
+      <mi>c</mi><mi>u</mi><mi>r</mi><mi>v</mi><mi>a</mi><mi>t</mi><mi>u</mi><mi>r</mi><mi>e</mi></mrow>
+    </msub>
+    <mo>&#x2192;</mo><mi>&#x221E;</mi><mo>;</mo><mtext>&#x2009;</mtext><mi>D</mi><mo>&#x2192;</mo><mn>0</mn>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mrow></mrow>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>S</mi><mi>p</mi><mi>h</mi><mi>e</mi><mi>r</mi><mi>i</mi><mi>c</mi><mi>a</mi><mi>l</mi><mtext>&#x00A0;</mtext><mi>m</mi><mi>i</mi><mi>r</mi><mi>r</mi><mi>o</mi><mi>r</mi><mo>:</mo>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mfrac>
+     <mn>1</mn>
+     <mi>d</mi>
+    </mfrac>
+    <mo>+</mo><mfrac>
+     <mn>1</mn>
+     <mi>f</mi>
+    </mfrac>
+    <mo>=</mo><mfrac>
+     <mn>1</mn>
+     <mi>F</mi>
+    </mfrac>
+    <mo>=</mo><mfrac>
+     <mn>2</mn>
+     <mi>r</mi>
+    </mfrac>
+    <mo>;</mo><mtext>&#x2009;</mtext><mi>F</mi><mo>=</mo><mfrac>
+     <mrow>
+      <mi>r</mi><mo stretchy='false'>(</mo><mi>c</mi><mi>u</mi><mi>r</mi><mi>v</mi><mi>a</mi><mi>t</mi><mi>u</mi><mi>r</mi><mi>e</mi><mo stretchy='false'>)</mo></mrow>
+     <mn>2</mn>
+    </mfrac>
+    
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mrow></mrow>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>S</mi><mi>y</mi><mi>s</mi><mi>t</mi><mi>e</mi><mi>m</mi><mtext>&#x00A0;</mtext><mi>o</mi><mi>f</mi><mtext>&#x00A0;</mtext><mi>m</mi><mi>i</mi><mi>r</mi><mi>r</mi><mi>o</mi><mi>r</mi><mi>s</mi><mo>:</mo>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <msub>
+     <mi>N</mi>
+     <mrow>
+      <mi>i</mi><mi>m</mi><mi>a</mi><mi>g</mi><mi>e</mi><mi>s</mi></mrow>
+    </msub>
+    <mo>=</mo><mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mn>360</mn></mrow>
+       <mi>&#x043E;</mi>
+      </msup>
+      </mrow>
+     <mrow>
+      <mi>&#x03B1;</mi><mo stretchy='false'>(</mo><mi>b</mi><mi>e</mi><mi>t</mi><mi>w</mi><mi>e</mi><mi>e</mi><mi>n</mi><mtext>&#x00A0;</mtext><mi>t</mi><mi>h</mi><mi>e</mi><mtext>&#x00A0;</mtext><mi>m</mi><mi>i</mi><mi>r</mi><mi>r</mi><mi>o</mi><mi>r</mi><mi>s</mi><mo stretchy='false'>)</mo></mrow>
+    </mfrac>
+    <mo>&#x2212;</mo><mn>1</mn>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mrow></mrow>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>T</mi><mi>o</mi><mi>t</mi><mi>a</mi><mi>l</mi><mtext>&#x00A0;</mtext><mi>r</mi><mi>e</mi><mi>f</mi><mi>l</mi><mi>e</mi><mi>c</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi><mo>:</mo>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mfrac>
+     <mrow>
+      <mi>s</mi><mi>i</mi><mi>n</mi><msub>
+       <mi>&#x03B1;</mi>
+       <mn>0</mn>
+      </msub>
+      </mrow>
+     <mrow>
+      <mi>s</mi><mi>i</mi><mi>n</mi><mn>90</mn></mrow>
+    </mfrac>
+    <mo>=</mo><mfrac>
+     <mrow>
+      <msub>
+       <mi>n</mi>
+       <mn>2</mn>
+      </msub>
+      </mrow>
+     <mrow>
+      <msub>
+       <mi>n</mi>
+       <mn>1</mn>
+      </msub>
+      </mrow>
+    </mfrac>
+    <mtext>&#x2009;</mtext><mi>o</mi><mi>r</mi><mtext>&#x2009;</mtext><mi>s</mi><mi>i</mi><mi>n</mi><msub>
+     <mi>&#x03B1;</mi>
+     <mn>0</mn>
+    </msub>
+    <mo>=</mo><mfrac>
+     <mrow>
+      <msub>
+       <mi>n</mi>
+       <mn>2</mn>
+      </msub>
+      </mrow>
+     <mrow>
+      <msub>
+       <mi>n</mi>
+       <mn>1</mn>
+      </msub>
+      </mrow>
+    </mfrac>
+    
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>n</mi><mo>=</mo><mfrac>
+     <mn>1</mn>
+     <mrow>
+      <mi>s</mi><mi>i</mi><mi>n</mi><msub>
+       <mi>&#x03B1;</mi>
+       <mn>0</mn>
+      </msub>
+      </mrow>
+    </mfrac>
+    <mtext>&#x2009;</mtext><mo>&#x2212;</mo><mtext>&#x2009;</mtext><mi>f</mi><mi>o</mi><mi>r</mi><mtext>&#x2009;</mtext><mi>a</mi><mi>i</mi><mi>r</mi>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mrow></mrow>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>S</mi><mi>h</mi><mi>i</mi><mi>f</mi><mi>t</mi><mtext>&#x2009;</mtext><mi>i</mi><mi>n</mi><mtext>&#x2009;</mtext><mi>t</mi><mi>h</mi><mi>e</mi><mtext>&#x2009;</mtext><mi>p</mi><mi>l</mi><mi>a</mi><mi>n</mi><mi>e</mi><mo>-</mo><mi>p</mi><mi>a</mi><mi>r</mi><mi>a</mi><mi>l</mi><mi>l</mi><mi>e</mi><mi>l</mi><mtext>&#x00A0;</mtext><mi>p</mi><mi>l</mi><mi>a</mi><mi>t</mi><mi>e</mi><mo>:</mo>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>x</mi><mo>=</mo><mi>H</mi><mfrac>
+     <mrow>
+      <mi>s</mi><mi>i</mi><mi>n</mi><mo stretchy='false'>(</mo><mi>&#x03B1;</mi><mo>&#x2212;</mo><mi>&#x03B2;</mi><mo stretchy='false'>)</mo></mrow>
+     <mrow>
+      <mi>c</mi><mi>o</mi><mi>s</mi><mi>&#x03B2;</mi></mrow>
+    </mfrac>
+    
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mrow></mrow>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>P</mi><mi>r</mi><mi>i</mi><mi>s</mi><mi>m</mi><mo>:</mo>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <msub>
+     <mi>&#x03B8;</mi>
+     <mrow>
+      <mi>d</mi><mi>e</mi><mi>f</mi><mi>l</mi><mi>e</mi><mi>c</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi></mrow>
+    </msub>
+    <mo>=</mo><msub>
+     <mi>&#x03B1;</mi>
+     <mn>1</mn>
+    </msub>
+    <mo>+</mo><msub>
+     <mi>&#x03B1;</mi>
+     <mn>2</mn>
+    </msub>
+    <mo>&#x2212;</mo><mi>&#x03B5;</mi>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <msub>
+     <mi>&#x03B8;</mi>
+     <mrow>
+      <mi>m</mi><mi>i</mi><mi>n</mi></mrow>
+    </msub>
+    <mo>=</mo><mo stretchy='false'>(</mo><mi>n</mi><mo>&#x2212;</mo><mn>1</mn><mo stretchy='false'>)</mo><mi>&#x03B5;</mi>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <msub>
+     <mi>&#x03B8;</mi>
+     <mrow>
+      <mi>m</mi><mi>a</mi><mi>x</mi></mrow>
+    </msub>
+    <mo>=</mo><msub>
+     <mi>&#x03B1;</mi>
+     <mn>1</mn>
+    </msub>
+    <mo>+</mo><mfrac>
+     <mi>&#x03C0;</mi>
+     <mn>2</mn>
+    </mfrac>
+    <mo>&#x2212;</mo><mi>&#x03B5;</mi>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>&#x03B5;</mi><mo>&#x2212;</mo><mi>p</mi><mi>r</mi><mi>i</mi><mi>s</mi><mi>m</mi><mtext>&#x00A0;</mtext><mi>a</mi><mi>n</mi><mi>g</mi><mi>l</mi><mi>e</mi>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <msub>
+     <mi>&#x03B1;</mi>
+     <mn>1</mn>
+    </msub>
+    <mo>&#x2212;</mo><mi>a</mi><mi>n</mi><mi>g</mi><mi>l</mi><mi>e</mi><mtext>&#x00A0;</mtext><mi>o</mi><mi>f</mi><mtext>&#x00A0;</mtext><mi>i</mi><mi>n</mi><mi>c</mi><mi>i</mi><mi>d</mi><mi>e</mi><mi>n</mi><mi>c</mi><mi>e</mi>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <msub>
+     <mi>&#x03B1;</mi>
+     <mn>2</mn>
+    </msub>
+    <mo>&#x2212;</mo><mi>o</mi><mi>u</mi><mi>t</mi><mi>l</mi><mi>e</mi><mi>t</mi><mtext>&#x00A0;</mtext><mi>a</mi><mi>n</mi><mi>g</mi><mi>l</mi><mi>e</mi>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mrow></mrow>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>L</mi><mi>o</mi><mi>u</mi><mi>p</mi><mi>e</mi><mo>:</mo>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>&#x0413;</mi><mo>=</mo><mfrac>
+     <mrow>
+      <msub>
+       <mi>d</mi>
+       <mn>0</mn>
+      </msub>
+      </mrow>
+     <mi>F</mi>
+    </mfrac>
+    
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <msub>
+     <mi>d</mi>
+     <mn>0</mn>
+    </msub>
+    <mo>=</mo><mn>25</mn><mtext>&#x2009;</mtext><mi>c</mi><mi>m</mi><mtext>&#x2009;</mtext><mo>&#x2212;</mo><mtext>&#x2009;</mtext><mi>d</mi><mi>i</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>c</mi><mi>e</mi>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>o</mi><mi>f</mi><mtext>&#x00A0;</mtext><mi>b</mi><mi>e</mi><mi>s</mi><mi>t</mi><mtext>&#x00A0;</mtext><mi>v</mi><mi>i</mi><mi>s</mi><mi>i</mi><mi>o</mi><mi>n</mi>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mrow></mrow>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>F</mi><mi>a</mi><mi>r</mi><mi>a</mi><mi>d</mi><mi>a</mi><mi>y</mi><mtext>&#x00A0;</mtext><mi>l</mi><mi>a</mi><mi>w</mi><mi>s</mi><mo>:</mo>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mn>1</mn><mo stretchy='false'>)</mo><mtext>&#x2009;</mtext><mi>m</mi><mo>=</mo><mi>k</mi><mi>q</mi><mo>=</mo><mi>k</mi><mi>I</mi><mi>t</mi>
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mn>2</mn><mo stretchy='false'>)</mo><mtext>&#x2009;</mtext><mi>k</mi><mo>=</mo><mfrac>
+     <mi>&#x03BC;</mi>
+     <mrow>
+      <mi>F</mi><mi>n</mi></mrow>
+    </mfrac>
+    
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>m</mi><mo>=</mo><mfrac>
+     <mrow>
+      <mi>&#x03BC;</mi><mi>I</mi><mi>t</mi></mrow>
+     <mrow>
+      <mi>F</mi><mi>n</mi></mrow>
+    </mfrac>
+    
+   </mtd>
+  </mtr>
+  <mtr>
+   <mtd>
+    <mi>F</mi><mo>=</mo><mi>e</mi><msub>
+     <mi>N</mi>
+     <mi>&#x0410;</mi>
+    </msub>
+    <mo>=</mo><mn>9,65</mn><mtext>&#x2009;</mtext><mo>&#x22C5;</mo><mtext>&#x2009;</mtext><msup>
+     <mn>10</mn>
+     <mn>4</mn>
+    </msup>
+    <mfrac>
+     <mi>C</mi>
+     <mrow>
+      <mi>m</mi><mi>o</mi><mi>l</mi><mi>e</mi></mrow>
+    </mfrac>
+    
+   </mtd>
+  </mtr>
+ </mtable>
+ 
+</math>
+
+</p>
+</body>
+</html>

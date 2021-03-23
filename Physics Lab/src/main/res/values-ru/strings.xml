@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Physics Lab</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tvCopyright_Text">Copyright © 2014 Mussabayev Ravil</string>
+    <string name="Menu_quit_Text">Выход</string>
+    <string name="Menu_about_Text">О программе</string>
+    <string name="Menu_back_Text">Назад</string>
+    <string name="Menu_pref_Text">Настройки</string>
+    <string name="tvNameAdd_Text">Название</string>
+    <string name="tvTxtAdd_Text">Значение</string>
+    <string name="btnAdd_Text">Добавить в базу</string>
+    <string name="tvAbout_Text">Physics Lab project\n\nРазработчик: Мусабаев Равиль\nХудожник: Пальчак Денис\nВерсия: 1.3.0 от 16.08.2014\nE-mail: ravmus@gmail.com</string>
+    <string name="toast_name">Введите название константы.</string>
+    <string name="toast_txt">Введите значение константы.</string>
+    <string name="toast_add">Константа добавлена.</string>
+    <string name="tab_list_text">Таблица</string>
+    <string name="tab_add_text">Добавить</string>
+    <string name="item_del_text">Удалить</string>
+    <string name="item_value_text">Изменить значение</string>
+    <string name="item_clip_name_text">Скопировать название</string>
+    <string name="item_clip_value_text">Скопировать значение</string>
+    <string name="btn_pos_text">OK</string>
+    <string name="btn_neg_text">Отмена</string>
+    <string name="toast_changed_text">Значение отредактировано.</string>
+    <string-array name="buttons">
+		<item>Кинематика</item>
+		<item>Динамика</item>
+		<item>Окружность и механические колебания</item>
+		<item>МКТ</item>
+		<item>Термодинамика</item>
+		<item>Электродинамика</item>
+		<item>Поверхностное натяжение и деформация</item>
+		<item>Электростатика</item>
+		<item>Магнетизм</item>
+		<item>Геометрическая оптика и законы Фарадея</item>
+		<item>Квантовая и ядерная физика</item>
+		<item>Переменный ток</item>
+		<item>Колебательный контур</item>
+		<item>Волны</item>
+		<item>Волновая оптика</item>
+		<item>Трансформатор и генератор</item>
+		<item>Теория относительности</item>
+		<item>Десятичные приставки</item>
+	</string-array>
+    <string name="about_name">О программе</string>
+    <string name="const_name">Константы</string>
+    <string name="from_text">Из</string>
+    <string name="to_text">В</string>
+    <string name="btnConvert_text">Рассчитать</string>
+    <string name="toast_error">Неправильный формат входных данных</string>
+    <string name="chClipboard_text">В буфер обмена</string>
+    <string name="toast_clipboard">Скопировано в буфер обмена</string>
+    <string name="tvChangelog_text">Список изменений:\n• Добавлены настройки. Теперь пользователь может выбирать способ показа формул.\n• Добавлены новые величины в конвертер.\n• Исправлены мелкие ошибки, улучшен интерфейс.</string>
+    <string-array name="pages">
+        <item>Формулы</item>
+        <item>Конвертер</item>
+        <item>Константы</item>
+    </string-array>
+    <string name="tvRate_text">Пожалуйста, оцените это приложение на Google Play</string>
+    <string name="btnRate_text">Physics Lab на Google Play</string>
+    <string name="btnClose_text">Закрыть</string>
+    <string name="btnClear_text">Очистить</string>
+    <string name="etResult_hint">Результат</string>
+    <string name="footer_text">Добавить новую константу</string>
+    <string name="etValue_hint">Значение</string>
+    <string name="chMethod_title">Растровые изображения</string>
+    <string name="chMethod_summary">Рендеринг формул при помощи java-script (качество) или использовать растровые изображения (производительность)</string>
+    <string name="chLang_title">Язык</string>
+    <string name="chLang_summary">Выбор языка приложения</string>
+    <string-array name="lang_list">
+        <item>Английский</item>
+        <item>Русский</item>
+    </string-array>
+    <string-array name="lang_values">
+        <item>en</item>
+        <item>ru</item>
+    </string-array>
+    <string name="pref_name">Настройки</string>
+    <string name="btnUp">Вверх</string>
+
+</resources>

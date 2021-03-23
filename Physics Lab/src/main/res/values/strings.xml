@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Physics Lab</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tvCopyright_Text">Copyright © 2014 Mussabayev Ravil</string>
+    <string name="Menu_quit_Text">Quit</string>
+	<string name="Menu_about_Text">About</string>
+	<string name="Menu_back_Text">Back</string>
+	<string name="Menu_pref_Text">Preferences</string>
+    <string name="tvNameAdd_Text">Name</string>
+    <string name="tvTxtAdd_Text">Value</string>
+    <string name="btnAdd_Text">Add to the base</string>
+    <string name="tvAbout_Text">Physics Lab project\n\nDeveloper: Mussabayev Ravil\nPainter: Palchak Denis\nVersion: 1.3.0 (16.08.2014)\nE-mail: ravmus@gmail.com</string>
+    <string name="toast_name">Enter the name of the constant.</string>
+    <string name="toast_txt">Enter the value of the constant.</string>
+    <string name="toast_add">Constant added.</string>
+    <string name="tab_list_text">Table</string>
+    <string name="tab_add_text">Add</string>
+    <string name="item_del_text">Delete</string>
+    <string name="item_value_text">Change value</string>
+    <string name="item_clip_name_text">Copy the name</string>
+    <string name="item_clip_value_text">Copy the value</string>
+    <string name="btn_pos_text">OK</string>
+    <string name="btn_neg_text">Cancel</string>
+    <string name="toast_changed_text">Value changed.</string>
+ 	<string-array name="buttons">
+		<item>Cinematics</item>
+		<item>Dynamics</item>
+		<item>Circle and mechanical vibrations</item>
+		<item>Molecular-kinetic theory</item>
+		<item>Termodynamics</item>
+		<item>Electrodynamics</item>
+		<item>Deformation</item>
+		<item>Electrostatics</item>
+		<item>Magnetics</item>
+		<item>Geometrical optics and Faraday laws</item>
+		<item>Quantum and nuclear physics</item>
+		<item>Alternating current</item>
+		<item>Oscillating circuit</item>
+		<item>Waves</item>
+		<item>Wave optics</item>
+		<item>Transformer and generator</item>
+		<item>Theory of relativity</item>
+		<item>Decimal prefixes</item>
+	</string-array>
+	<string name="about_name">About</string>
+    <string name="const_name">Constants</string>
+    <string name="from_text">From</string>
+    <string name="to_text">To</string>
+    <string name="btnConvert_text">Calculate</string>
+    <string name="toast_error">Input data error</string>
+    <string name="chClipboard_text">To clipboard</string>
+    <string name="toast_clipboard">Value copied to clipboard</string>
+    <string name="tvChangelog_text">Change log:\n• Added settings. Now user can select display method of formulas.\n• Added new quantities to the converter.\n• Fixed some minor bugs, improved interface.</string>
+    <string-array name="pages">
+        <item>Formulas</item>
+        <item>Converter</item>
+        <item>Constants</item>
+    </string-array>
+    <string name="tvRate_text">Please rate this app on Google Play</string>
+    <string name="btnRate_text">Physics Lab on Google Play</string>
+    <string name="btnClose_text">Close</string>
+    <string name="btnClear_text">Clear</string>
+    <string name="etResult_hint">Result</string>
+    <string name="footer_text">Add a new constant</string>
+    <string name="etValue_hint">Value</string>
+    <string name="chMethod_title">Raster images</string>
+    <string name="chMethod_summary">Rendering by using java-script (quality) or bitmaps (performance)</string>
+    <string name="chLang_title">Language</string>
+    <string name="chLang_summary">Choosing application language</string>
+    <string-array name="lang_list">
+        <item>English</item>
+        <item>Russian</item>
+    </string-array>
+    <string-array name="lang_values">
+        <item>en</item>
+        <item>ru</item>
+    </string-array>
+    <string name="pref_name">Preferences</string>
+    <string name="btnUp">Move up</string>
+
+</resources>

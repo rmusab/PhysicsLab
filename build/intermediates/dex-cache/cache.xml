@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\AndroidStudioProjects\PhysicsLab\Physics Lab\build\intermediates\pre-dexed\debug\support-v4-19.0.1-78709e5631ebac772af12b5f3311aa78b0606133.jar"
+        jar="C:\Android Studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.0.1\support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
+    <item
+        dex="C:\AndroidStudioProjects\PhysicsLab\Physics Lab\build\intermediates\pre-dexed\debug\classes-7afbba9123a93c6dd875403c0fc88666a4e59ef3.jar"
+        jar="C:\AndroidStudioProjects\PhysicsLab\Physics Lab\build\intermediates\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49"/>
+
+</pre-dex-items>

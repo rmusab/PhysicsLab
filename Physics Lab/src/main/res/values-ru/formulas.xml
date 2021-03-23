@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="formulas">
+        <item >kinematics.html</item>
+        <item >dynamics.html</item>
+        <item >circle.html</item>
+        <item >mkt.html</item>
+        <item >termo_dynam.html</item>
+        <item >electr.html</item>
+        <item >deformation.html</item>
+        <item >electrostatics.html</item>
+        <item >magnet.html</item>
+        <item >optics_farad.html</item>
+        <item >nuclear.html</item>
+        <item >altern_current.html</item>
+        <item >circuit.html</item>
+        <item >waves.html</item>
+        <item >wave_optics.html</item>
+        <item >transform.html</item>
+        <item >relativity.html</item>
+        <item >si.html</item>
+    </string-array>
+    <string name="table_name">TB_CONST_RU</string>    
+</resources>
