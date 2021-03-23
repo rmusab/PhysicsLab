@@ -1,4 +1,5 @@
-# PhysicsLab
+<img src="heading.png" width="400" />
+
 Android application for learning physics formulas and converting between physical units.
 
 <p float="left">
